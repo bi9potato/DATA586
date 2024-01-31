@@ -31,28 +31,8 @@ Our comprehensive approach led to significant improvements in handling long-tail
 
 We further explored transfer learning by initializing our model with weights pre-trained on the ImageNet-11k dataset, leading to an even higher classification accuracy.
 
-## Repository Structure
-
-- `model/`: Contains the implementation of the ConvNeXt-Tiny model.
-- `data/`: Scripts for data preprocessing and augmentation.
-- `training/`: Training scripts including the application of various techniques.
-- `results/`: Stored results and model performance metrics.
-- `utils/`: Utility functions used across the project.
-
-## Usage
-
-Detailed instructions on how to set up the environment, preprocess the data, and train the model are provided in respective directories.
-
 ## Acknowledgments
 
 This project was developed by Renghe Tang and Weijia Lyu at the University of British Columbia. We thank the authors of the ConvNeXt model and the Caltech-101 dataset for making their resources available.
-
-## References
-
-- [1] Marina Sokolova and Guy Lapalme. "A systematic analysis of performance measures for classification tasks."
-- [2] Davide Chicco, et al. "The Matthews correlation coefficient (MCC) is more informative than Cohen’s kappa."
-- [3] Jean Carletta. "Assessing agreement on classification tasks: the kappa statistic."
-
----
 
 For more detailed information, refer to our paper "Long-Tailed Image Classification based on ConvNeXt-Tiny Model".
